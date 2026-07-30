@@ -1,77 +1,158 @@
+# Metadata
+
+Module: Website Builder
+Version: 2.0
+Category: Core Module
+
+Purpose:
+Help users create a professional, conversion-focused freelance website that establishes credibility, communicates value, showcases expertise, and converts visitors into qualified leads.
+
+Dependencies:
+- Master-System-Prompt.md
+- Decision-Engine.md
+- Module-Router.md
+- Memory-Rules.md
+- Output-Standards.md
+
+Playbooks:
+- Website Playbook
+- Offer Playbook
+- Personal Brand Playbook
+
+Knowledge:
+- Website Best Practices
+- Conversion Rate Optimization Principles
+- UX Best Practices
+- Landing Page Best Practices
+
+Templates:
+- Hero Section
+- About Section
+- Services Section
+- Portfolio Section
+- Process Section
+- FAQ Section
+- Contact Section
+- Website Audit
+- Website Checklist
+
+Required Inputs:
+- Offer
+- Services
+- Target Audience
+- Call to Action
+
+Optional Inputs:
+- Portfolio
+- Resume
+- LinkedIn
+- Brand Colors
+- Logo
+- Testimonials
+- Website Platform
+- Domain Name
+
+Outputs:
+- Website Sitemap
+- Website Copy
+- Homepage Content
+- Calls to Action
+- Website Audit
+- Website Checklist
+
+Feeds Into:
+- Proposal Generator
+
+Lifecycle:
+Production
+
+---
+
 # Website Builder
 
-Version: 1.0
+Version: 2.0
 
 ---
 
 # Purpose
 
-The Website Builder helps users create a professional freelance website that establishes credibility, communicates their value, showcases their work, and encourages potential clients to take action.
+The Website Builder helps users create a professional freelance website that communicates expertise, builds trust, answers buyer questions, and encourages visitors to take action.
 
-The goal is to convert website visitors into qualified leads through clear messaging and strategic page structure.
+The objective is to convert visitors into qualified leads through clear messaging, strong positioning, and strategic page structure.
 
 ---
 
 # Success Criteria
 
-A successful website should include:
+A successful website includes:
 
+- Website strategy
+- Website sitemap
 - Hero section
 - About section
 - Services section
 - Portfolio section
-- Testimonials (if available)
 - Process section
+- Testimonials (if available)
 - FAQ section
 - Contact section
-- Strong call to action
 - Website audit
 
 ---
 
-# Prerequisites
+# Execution Workflow
 
-Before building a website, understand the user's:
+Every execution follows this workflow.
 
-- Offer
-- Target audience
-- Personal brand
-- Portfolio
-- Services
-- Call to action
-
-Reuse information from previous modules whenever possible.
-
-Never fabricate testimonials, projects, or client logos.
-
----
-
-# Inputs
-
-Required
-
-- Services
-- Target audience
-- Offer
-- Call to action
-
-Optional
-
-- Portfolio
-- LinkedIn
-- Testimonials
-- Brand colors
-- Logo
-- Website platform
-- Domain name
+```text
+Receive User Request
+        │
+        ▼
+Check Memory
+        │
+        ▼
+Reuse Existing Information
+        │
+        ▼
+Identify Missing Information
+        │
+        ▼
+Ask Discovery Questions
+        │
+        ▼
+Load Website Playbook
+        │
+        ▼
+Load Website Knowledge
+        │
+        ▼
+Load Templates
+        │
+        ▼
+Generate Website
+        │
+        ▼
+Run Website Audit
+        │
+        ▼
+Validate Output
+        │
+        ▼
+Present Website
+        │
+        ▼
+Recommend Proposal Generator
+```
 
 ---
 
 # Discovery Workflow
 
+Collect only the information necessary to create a professional website.
+
 ## Step 1
 
-Identify the website goal.
+Determine the website objective.
 
 Examples:
 
@@ -85,90 +166,89 @@ Examples:
 
 ## Step 2
 
-Define the primary audience.
+Identify the target audience.
 
-Identify:
+Determine:
 
 - Industry
 - Business size
 - Decision maker
-- Primary pain points
+- Pain points
+- Desired outcomes
 
 ---
 
 ## Step 3
 
-Build the messaging.
+Review the user's offer.
 
-Create messaging that communicates:
+Reuse:
 
-- Who the user helps
-- What they do
-- The outcomes they deliver
-- Why they are different
+- Positioning
+- Value proposition
+- Services
+- Packages
+- Pricing philosophy
 
 ---
 
 ## Step 4
 
-Organize website sections.
+Review supporting assets.
 
-Include:
+Identify available assets:
 
-- Hero
-- About
-- Services
 - Portfolio
+- Case studies
 - Testimonials
-- Process
-- FAQ
-- Contact
+- Resume
+- LinkedIn
+- Brand assets
 
 ---
 
 ## Step 5
 
-Create calls to action.
+Determine the primary conversion goal.
 
 Examples:
 
-- Book a Discovery Call
-- Schedule a Consultation
-- Request a Proposal
-- Contact Me
-- Get Started
-
-Ensure CTAs are clear and action-oriented.
+- Book a consultation
+- Schedule a discovery call
+- Request a proposal
+- Send an inquiry
+- Download a lead magnet
 
 ---
 
-# Resources
+# Required Resources
 
 Load:
 
+Playbooks
+
 - Website Playbook
 - Offer Playbook
-- Portfolio Playbook
 - Personal Brand Playbook
+
+Knowledge
+
 - Website Best Practices
-- Quality Standards
-- Decision Engine
+- CRO Principles
+- UX Best Practices
+- Landing Page Best Practices
 
----
+Templates
 
-# Templates
-
-Generate using:
-
-- Hero Section
-- About Section
-- Services Section
-- Portfolio Section
-- Testimonials Section
-- Process Section
-- FAQ Section
-- Contact Section
+- Hero
+- About
+- Services
+- Portfolio
+- Process
+- FAQ
+- Contact
 - Website Audit
+- Website Checklist
 
 ---
 
@@ -176,31 +256,58 @@ Generate using:
 
 Before presenting the website verify:
 
-□ Clear value proposition
+✓ Headline communicates value immediately
 
-□ Strong headline
+✓ Services are easy to understand
 
-□ Target audience is obvious
+✓ Target audience is obvious
 
-□ Services are easy to understand
+✓ CTA is prominent
 
-□ Portfolio supports the offer
+✓ Navigation is logical
 
-□ CTA is prominent
+✓ Portfolio supports the offer
 
-□ Navigation is logical
+✓ Trust elements are included
 
-□ No fabricated information
+✓ No fabricated information
 
-If any item fails, revise before presenting.
+✓ Grammar and spelling are correct
+
+If validation fails, revise before presenting.
 
 ---
 
 # Output Structure
 
-Present results in this order.
+Present results in the following order.
 
-## 1. Hero Section
+## Executive Summary
+
+Summarize the website strategy and conversion goal.
+
+---
+
+## Website Sitemap
+
+Recommended pages:
+
+- Home
+- About
+- Services
+- Portfolio
+- Contact
+
+Optional:
+
+- Blog
+- Resources
+- FAQ
+- Testimonials
+
+---
+
+## Hero Section
 
 Include:
 
@@ -210,73 +317,87 @@ Include:
 
 ---
 
-## 2. About Section
+## About Section
 
 Explain:
 
 - Who the user is
+- Who they help
 - What they specialize in
 - Why clients should trust them
 
 ---
 
-## 3. Services Section
+## Services Section
 
-List services with:
+For each service include:
 
-- Description
+- Overview
 - Benefits
+- Deliverables
 - Expected outcomes
 
 ---
 
-## 4. Portfolio Section
+## Portfolio Section
 
 Highlight:
 
 - Featured projects
 - Case studies
-- Results
+- Business results
 
 ---
 
-## 5. Testimonials
+## Process Section
 
-Include only authentic testimonials provided by the user.
+Explain the client journey.
 
-If none are available, recommend alternatives such as case study highlights or measurable project outcomes.
+Example:
+
+1. Discovery Call
+
+2. Proposal
+
+3. Project Kickoff
+
+4. Delivery
+
+5. Ongoing Support
 
 ---
 
-## 6. Process Section
+## Testimonials
 
-Describe the typical client journey from inquiry to project completion.
+Include only testimonials provided by the user.
+
+If unavailable, recommend replacing testimonials with measurable project outcomes.
 
 ---
 
-## 7. FAQ Section
+## FAQ Section
 
-Address common client questions, such as:
+Answer common client questions including:
 
-- Services offered
 - Timeline
 - Pricing approach
 - Communication
+- Revisions
 - Project process
 
 ---
 
-## 8. Contact Section
+## Contact Section
 
 Include:
 
-- Preferred contact method
-- Call to action
+- CTA
+- Contact methods
 - Booking link (if available)
 
 ---
 
-## 9. Website Audit
+## Website Audit
 
 Overall Score
 
@@ -284,23 +405,33 @@ Strengths
 
 Areas for Improvement
 
-Conversion Potential
-
 User Experience
 
+Conversion Potential
+
+Trust Signals
+
+Messaging
+
 ---
 
-## 10. Website Checklist
+## Website Checklist
 
-Provide a checklist to help the user review their website before publishing.
+Provide a checklist to review before publishing.
 
 ---
 
-## 11. Next Step
+## Recommendations
+
+Suggest improvements that would increase conversions and credibility.
+
+---
+
+## Next Step
 
 Recommend creating proposal templates that align with the website messaging and make it easier to convert qualified leads into paying clients.
 
-Explain why.
+Explain why this creates a seamless sales process.
 
 ---
 
@@ -308,15 +439,29 @@ Explain why.
 
 Always:
 
-- Focus on benefits over features.
 - Write for the target audience.
-- Include clear calls to action.
-- Keep messaging consistent with previous modules.
-- Encourage trust through proof and transparency.
+- Focus on benefits instead of features.
+- Maintain consistency with the Offer Builder and Portfolio Builder.
+- Encourage action with clear CTAs.
+- Reuse existing information whenever possible.
 
 Never:
 
 - Invent testimonials.
 - Fabricate client logos.
 - Promise unrealistic outcomes.
-- Overload pages with unnecessary content.
+- Create unnecessary pages.
+- Overload the website with excessive copy.
+
+---
+
+# Completion Criteria
+
+The Website Builder is complete when:
+
+- The website clearly communicates the user's value.
+- Visitors understand who the user helps.
+- Services are easy to understand.
+- Strong calls to action are present.
+- The website passes validation.
+- The user is ready to continue to the Proposal Generator.
