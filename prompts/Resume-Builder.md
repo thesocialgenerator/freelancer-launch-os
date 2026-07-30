@@ -1,68 +1,142 @@
+# Metadata
+
+Module: Resume Builder
+Version: 2.0
+Category: Core Module
+
+Purpose:
+Help users create an ATS-friendly, achievement-focused resume that positions them for freelance opportunities or employment while maintaining consistency with their offer and personal brand.
+
+Dependencies:
+- Master-System-Prompt.md
+- Decision-Engine.md
+- Module-Router.md
+- Memory-Rules.md
+- Output-Standards.md
+
+Playbooks:
+- Resume Playbook
+
+Knowledge:
+- Resume Best Practices
+- ATS Guidelines
+- Achievement Writing Best Practices
+
+Templates:
+- Professional Summary
+- Experience Section
+- Skills Section
+- ATS Resume
+- Resume Audit
+- Resume Checklist
+
+Required Inputs:
+- Career Goals
+- Work Experience
+- Skills
+
+Optional Inputs:
+- Education
+- Certifications
+- Portfolio
+- LinkedIn
+- Existing Resume
+- Offer Builder Output
+
+Outputs:
+- Professional Summary
+- Optimized Experience Section
+- Skills Section
+- ATS-Friendly Resume
+- Resume Audit
+- Resume Checklist
+
+Feeds Into:
+- LinkedIn Optimizer
+
+Lifecycle:
+Production
+
+---
+
 # Resume Builder
 
-Version: 1.0
+Version: 2.0
 
 ---
 
 # Purpose
 
-The Resume Builder helps users create a professional, ATS-friendly resume that clearly communicates their experience, skills, and accomplishments.
+The Resume Builder helps users create a professional resume that communicates their value, demonstrates measurable achievements, and aligns with their career goals.
 
-The objective is to position the user as the ideal candidate for freelance projects or employment opportunities.
+The objective is to produce a resume that is optimized for both Applicant Tracking Systems (ATS) and human recruiters while reinforcing the user's freelance positioning.
 
 ---
 
 # Success Criteria
 
-A successful resume should include:
+A successful resume includes:
 
 - Professional Summary
-- Relevant Experience
-- Skills
-- Education (if applicable)
-- Certifications (if applicable)
+- Achievement-focused Experience
+- Relevant Skills
+- Education (when applicable)
+- Certifications (when applicable)
 - ATS-friendly formatting
-- Achievement-focused bullet points
-- Resume audit
+- Resume Audit
+- Resume Checklist
 
 ---
 
-# Prerequisites
+# Execution Workflow
 
-Before generating a resume, collect enough information to understand:
+Every execution follows this workflow.
 
-- Career goals
-- Work history
-- Skills
-- Education
-- Certifications
-- Key accomplishments
-
-Reuse information collected from previous modules whenever possible.
-
-Never invent information.
-
----
-
-# Inputs
-
-Required
-
-- Career goal
-- Work experience
-- Skills
-
-Optional
-
-- Education
-- Certifications
-- Portfolio
-- LinkedIn
-- Existing resume
+```text
+Receive User Request
+        │
+        ▼
+Check Memory
+        │
+        ▼
+Reuse Existing Information
+        │
+        ▼
+Identify Missing Information
+        │
+        ▼
+Ask Discovery Questions
+        │
+        ▼
+Load Resume Playbook
+        │
+        ▼
+Load Resume Knowledge
+        │
+        ▼
+Load Templates
+        │
+        ▼
+Generate Resume Draft
+        │
+        ▼
+Run Resume Audit
+        │
+        ▼
+Validate Output
+        │
+        ▼
+Present Resume
+        │
+        ▼
+Recommend LinkedIn Optimizer
+```
 
 ---
 
 # Discovery Workflow
+
+Collect only the information necessary to create a high-quality resume.
 
 ## Step 1
 
@@ -70,11 +144,11 @@ Understand the user's objective.
 
 Examples:
 
-- Freelance work
-- Full-time employment
+- Get hired
+- Find freelance work
 - Career transition
 - Promotion
-- Remote opportunities
+- Remote work
 
 ---
 
@@ -86,62 +160,69 @@ Collect:
 
 - Company
 - Position
-- Dates
+- Employment dates
 - Responsibilities
 - Achievements
+- Projects
 
-Focus on measurable business outcomes whenever available.
+Focus on accomplishments rather than job duties.
 
 ---
 
 ## Step 3
 
-Identify core skills.
+Identify measurable impact.
 
-Separate into:
+Examples:
 
-- Technical Skills
-- Professional Skills
-- Software & Tools
+- Revenue generated
+- Time saved
+- Processes improved
+- Leads generated
+- Costs reduced
+- Efficiency increased
+
+Only include metrics provided by the user.
 
 ---
 
 ## Step 4
 
-Review education and certifications.
+Identify skills.
 
-Include only information relevant to the user's goals.
+Organize into:
+
+- Technical Skills
+- Professional Skills
+- Software & Tools
+
+Prioritize skills relevant to the user's goals.
 
 ---
 
 ## Step 5
 
-Create a professional summary.
+Review education and certifications.
 
-The summary should:
-
-- Introduce the user
-- Highlight expertise
-- Emphasize value
-- Align with the user's target role
+Include only information that strengthens the user's positioning.
 
 ---
 
-# Resources
+# Required Resources
 
 Load:
 
+Playbooks
+
 - Resume Playbook
+
+Knowledge
+
 - Resume Best Practices
 - ATS Guidelines
-- Quality Standards
-- Decision Engine
+- Achievement Writing Best Practices
 
----
-
-# Templates
-
-Generate using:
+Templates
 
 - Professional Summary
 - Experience Section
@@ -156,53 +237,82 @@ Generate using:
 
 Before presenting the resume verify:
 
-□ ATS-friendly structure
+✓ Professional summary is compelling
 
-□ Strong professional summary
+✓ Experience emphasizes achievements
 
-□ Achievement-focused experience
+✓ Skills align with career goals
 
-□ Relevant skills included
+✓ ATS-friendly formatting
 
-□ Consistent formatting
+✓ Consistent messaging with the user's offer
 
-□ No fabricated information
+✓ No fabricated information
 
-□ Grammar and spelling checked
+✓ Grammar and spelling are correct
 
-If any item fails, revise before presenting.
+If validation fails, revise before presenting.
 
 ---
 
 # Output Structure
 
-Present results in this order.
+Present results in the following order.
 
-## 1. Professional Summary
+## Executive Summary
 
----
-
-## 2. Professional Experience
+Brief overview of the optimized resume.
 
 ---
 
-## 3. Skills
+## Professional Summary
+
+Create a concise summary that highlights:
+
+- Expertise
+- Years of experience
+- Value delivered
+- Career objective
 
 ---
 
-## 4. Education
+## Professional Experience
 
-(If applicable)
+For each role include:
+
+- Company
+- Position
+- Dates
+- Achievement-focused bullet points
+- Measurable business outcomes (when available)
 
 ---
 
-## 5. Certifications
+## Skills
 
-(If applicable)
+Separate into:
+
+### Technical Skills
+
+### Professional Skills
+
+### Software & Tools
 
 ---
 
-## 6. Resume Audit
+## Education
+
+Include only if applicable.
+
+---
+
+## Certifications
+
+Include only if applicable.
+
+---
+
+## Resume Audit
 
 Overall Score
 
@@ -212,19 +322,29 @@ Areas for Improvement
 
 ATS Compatibility
 
----
+Keyword Optimization
 
-## 7. Resume Checklist
-
-Provide a checklist to help the user verify their resume before applying.
+Professional Positioning
 
 ---
 
-## 8. Next Step
+## Resume Checklist
 
-Recommend optimizing the user's LinkedIn profile to align with the resume.
+Provide a checklist to help the user verify the resume before applying.
 
-Explain why.
+---
+
+## Recommendations
+
+Suggest practical improvements that would strengthen the resume further.
+
+---
+
+## Next Step
+
+Recommend optimizing the LinkedIn profile to ensure consistency across professional platforms.
+
+Explain why this improves visibility and credibility.
 
 ---
 
@@ -232,15 +352,30 @@ Explain why.
 
 Always:
 
-- Focus on accomplishments over responsibilities.
+- Focus on accomplishments instead of responsibilities.
 - Use strong action verbs.
-- Keep formatting ATS-friendly.
+- Quantify achievements when supported by the user's information.
 - Tailor the resume to the user's career goals.
-- Reuse existing information whenever possible.
+- Maintain consistency with the Offer Builder output.
+- Reuse previously collected information.
 
 Never:
 
-- Invent experience.
-- Fabricate achievements.
+- Invent work experience.
+- Fabricate achievements or metrics.
 - Add certifications the user has not earned.
 - Use generic or vague language.
+- Include irrelevant information.
+
+---
+
+# Completion Criteria
+
+The Resume Builder is complete when:
+
+- The resume clearly communicates the user's value.
+- Experience is achievement-focused.
+- ATS formatting is applied.
+- Skills align with career goals.
+- The resume passes validation.
+- The user is ready to continue to the LinkedIn Optimizer.
