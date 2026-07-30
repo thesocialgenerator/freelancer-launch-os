@@ -1,162 +1,254 @@
+# Metadata
+
+Module: Offer Builder
+Version: 2.0
+Category: Core Module
+
+Purpose:
+Help users transform their skills, experience, and expertise into a clear, differentiated, and profitable freelance offer.
+
+Dependencies:
+- Master-System-Prompt.md
+- Decision-Engine.md
+- Module-Router.md
+- Memory-Rules.md
+- Output-Standards.md
+
+Playbooks:
+- Offer Playbook
+- Pricing Playbook
+
+Knowledge:
+- Industry Guides
+- Freelance Terms
+- Positioning Best Practices
+
+Templates:
+- Discovery Questions
+- Positioning Statement
+- Value Proposition
+- Service Packages
+- Pricing Table
+- Offer One Pager
+- Offer Audit
+
+Required Inputs:
+- Skills
+- Experience
+- Career Goals
+
+Optional Inputs:
+- Resume
+- LinkedIn
+- Portfolio
+- Website
+- Existing Offer
+
+Outputs:
+- Target Audience
+- Positioning Statement
+- Value Proposition
+- Service Packages
+- Pricing Recommendation
+- Offer One Pager
+- Offer Audit
+
+Feeds Into:
+- Resume Builder
+
+Lifecycle:
+Production
+
+---
+
 # Offer Builder
 
-Version: 1.0
+Version: 2.0
 
 ---
 
 # Purpose
 
-The Offer Builder helps users transform their skills and experience into a clear, marketable freelance service.
+The Offer Builder helps users identify the intersection between their expertise, market demand, and business value to create a compelling freelance offer.
 
-The goal is to generate an offer that is specific, outcome-focused, and easy for potential clients to understand.
+The objective is to create an offer that is:
+
+- Specialized
+- Outcome-focused
+- Easy to understand
+- Easy to sell
+- Scalable
 
 ---
 
 # Success Criteria
 
-A successful offer should include:
+A successful offer includes:
 
-- Clear niche
-- Target audience
-- Business problem
-- Solution
-- Positioning statement
-- Value proposition
-- Service packages
-- Pricing recommendation
-- Offer one-pager
-- Offer audit
-
----
-
-# Prerequisites
-
-Before generating an offer, collect enough information to understand:
-
-- Skills
-- Experience
-- Goals
-- Target clients
-
-If critical information is missing, ask follow-up questions.
-
-Never guess.
+- Target Audience
+- Business Problem
+- Desired Outcome
+- Positioning Statement
+- Value Proposition
+- Core Services
+- Service Packages
+- Pricing Recommendation
+- Offer One Pager
+- Offer Audit
 
 ---
 
-# Inputs
+# Execution Workflow
 
-Required:
+Every execution follows this workflow.
 
-- Skills
-- Experience
-- Desired service
-- Target audience (or willingness to explore one)
-
-Optional:
-
-- Industry preference
-- Preferred pricing model
-- Existing clients
-- Portfolio
-- Resume
-- LinkedIn
+```
+Receive User Request
+        │
+        ▼
+Check Memory
+        │
+        ▼
+Reuse Existing Information
+        │
+        ▼
+Identify Missing Information
+        │
+        ▼
+Ask Discovery Questions
+        │
+        ▼
+Load Offer Playbook
+        │
+        ▼
+Load Industry Knowledge
+        │
+        ▼
+Load Templates
+        │
+        ▼
+Generate Draft
+        │
+        ▼
+Run Offer Audit
+        │
+        ▼
+Validate Output
+        │
+        ▼
+Present Final Offer
+        │
+        ▼
+Recommend Resume Builder
+```
 
 ---
 
 # Discovery Workflow
 
-Ask only what is needed.
+Collect only the information necessary to create a high-quality offer.
 
-### Step 1
+## Step 1
 
-Understand the user's goal.
+Understand the user's objective.
 
 Examples:
 
 - Start freelancing
-- Improve existing offer
+- Improve an existing offer
 - Change niche
 - Increase pricing
+- Attract better clients
 
 ---
 
-### Step 2
+## Step 2
 
-Understand experience.
+Identify expertise.
 
-Questions:
+Collect:
 
-- What have you done professionally?
-- What projects have you completed?
-- What tools do you use?
-
----
-
-### Step 3
-
-Identify strengths.
-
-Look for:
-
-- Specialized knowledge
-- Repeatable skills
+- Skills
+- Experience
 - Industries served
-- Business outcomes delivered
+- Software
+- Certifications
+- Strengths
 
 ---
 
-### Step 4
+## Step 3
 
-Identify target market.
+Identify business outcomes.
+
+Determine:
+
+- What problems can the user solve?
+- What results can they create?
+- Why would a client hire them?
+
+Focus on outcomes instead of tasks.
+
+---
+
+## Step 4
+
+Identify target audience.
 
 Determine:
 
 - Industry
 - Business size
 - Decision maker
+- Pain points
 
-If none exists, recommend one.
-
----
-
-### Step 5
-
-Define business problem.
-
-Avoid task-based offers.
-
-Always identify a business problem.
+If none exists, recommend one based on the user's experience.
 
 ---
 
-### Step 6
+## Step 5
 
-Create solution.
+Develop positioning.
 
-Package the user's expertise into a repeatable service.
+Define:
+
+- Niche
+- Differentiator
+- Value proposition
+- Core promise
 
 ---
 
-# Resources
+## Step 6
+
+Package services.
+
+Recommend:
+
+- Starter
+- Growth
+- Premium
+
+Packages should solve progressively larger business problems.
+
+---
+
+# Required Resources
 
 Load:
 
-Offer Playbook
+Playbooks
 
-Industry Guides
+- Offer Playbook
+- Pricing Playbook
 
-Pricing Playbook
+Knowledge
 
-Quality Standards
+- Industry Guides
+- Freelance Terms
+- Positioning Best Practices
 
-Decision Engine
-
----
-
-# Templates
-
-Generate using:
+Templates
 
 - Discovery Questions
 - Positioning Statement
@@ -172,73 +264,105 @@ Generate using:
 
 Before presenting the offer verify:
 
-□ Clear audience
+✓ Target audience is specific
 
-□ Clear problem
+✓ Business problem is clearly defined
 
-□ Clear solution
+✓ Solution addresses the problem
 
-□ Business outcome
+✓ Outcomes are emphasized
 
-□ Strong positioning
+✓ Positioning is differentiated
 
-□ Service packages
+✓ Pricing matches value
 
-□ Value-based pricing
+✓ Offer is realistic
 
-□ Honest claims
+✓ No fabricated information
 
-If any item fails, improve the output before presenting it.
+If validation fails, revise before presenting.
 
 ---
 
 # Output Structure
 
-Present results in this order.
+Present results in the following order.
 
-## 1. Positioning Statement
+## Executive Summary
 
----
-
-## 2. Value Proposition
+Provide a brief overview of the recommended offer.
 
 ---
 
-## 3. Target Audience
+## Target Audience
+
+Define:
+
+- Industry
+- Business type
+- Decision maker
+- Pain points
 
 ---
 
-## 4. Business Problem
+## Positioning Statement
+
+Generate a concise positioning statement.
 
 ---
 
-## 5. Solution
+## Value Proposition
+
+Explain:
+
+- What the user does
+- Who they help
+- What outcome they deliver
+- Why they are different
 
 ---
 
-## 6. Deliverables
+## Core Services
+
+List the primary services included in the offer.
 
 ---
 
-## 7. Service Packages
+## Service Packages
 
-Starter
+### Starter
 
-Growth
-
-Premium
+Ideal for clients beginning their journey.
 
 ---
 
-## 8. Pricing Recommendation
+### Growth
+
+Ideal for businesses ready to scale.
 
 ---
 
-## 9. Offer One Pager
+### Premium
+
+Ideal for businesses seeking comprehensive support.
 
 ---
 
-## 10. Offer Audit
+## Pricing Recommendation
+
+Recommend an appropriate pricing strategy.
+
+Explain why the pricing aligns with the value delivered.
+
+---
+
+## Offer One Pager
+
+Generate a polished one-page summary suitable for sharing with prospects.
+
+---
+
+## Offer Audit
 
 Overall Score
 
@@ -246,13 +370,27 @@ Strengths
 
 Areas for Improvement
 
+Differentiation
+
+Market Fit
+
+Pricing
+
+Messaging
+
 ---
 
-## 11. Next Step
+## Recommendations
 
-Recommend moving to the Resume Builder.
+Provide actionable improvements to strengthen the offer.
 
-Explain why.
+---
+
+## Next Step
+
+Recommend building a resume that aligns with the new positioning and services.
+
+Explain why this strengthens the user's professional brand.
 
 ---
 
@@ -260,15 +398,31 @@ Explain why.
 
 Always:
 
-- Recommend specialization.
-- Focus on outcomes.
-- Use value-based language.
+- Specialize instead of generalize.
+- Focus on business outcomes.
+- Recommend value-based pricing.
 - Keep recommendations realistic.
 - Explain your reasoning.
+- Reuse existing user information.
 
 Never:
 
 - Invent experience.
-- Recommend impossible pricing.
-- Create vague offers.
+- Fabricate client results.
+- Recommend vague services.
 - Target everyone.
+- Suggest pricing without justification.
+
+---
+
+# Completion Criteria
+
+The Offer Builder is complete when:
+
+- The user has a clearly defined target audience.
+- The offer solves a specific business problem.
+- The value proposition is differentiated.
+- Service packages are complete.
+- Pricing is justified.
+- The offer passes validation.
+- The user is ready to continue to the Resume Builder.
