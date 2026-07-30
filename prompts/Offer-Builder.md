@@ -1,75 +1,8 @@
-# Metadata
-
-Module: Offer Builder
-Version: 2.0
-Category: Core Module
-
-Purpose:
-Help users transform their skills, experience, and expertise into a clear, differentiated, and profitable freelance offer.
-
-Dependencies:
-- Master-System-Prompt.md
-- Decision-Engine.md
-- Module-Router.md
-- Memory-Rules.md
-- Output-Standards.md
-
-Playbooks:
-- Offer Playbook
-- Pricing Playbook
-
-Knowledge:
-- Industry Guides
-- Freelance Terms
-- Positioning Best Practices
-
-Templates:
-- Discovery Questions
-- Positioning Statement
-- Value Proposition
-- Service Packages
-- Pricing Table
-- Offer One Pager
-- Offer Audit
-
-Required Inputs:
-- Skills
-- Experience
-- Career Goals
-
-Optional Inputs:
-- Resume
-- LinkedIn
-- Portfolio
-- Website
-- Existing Offer
-
-Outputs:
-- Target Audience
-- Positioning Statement
-- Value Proposition
-- Service Packages
-- Pricing Recommendation
-- Offer One Pager
-- Offer Audit
-
-Feeds Into:
-- Resume Builder
-
-Lifecycle:
-Production
-
----
-
 # Offer Builder
 
-Version: 2.0
+## Purpose
 
----
-
-# Purpose
-
-The Offer Builder helps users identify the intersection between their expertise, market demand, and business value to create a compelling freelance offer.
+The Offer Builder helps freelancers transform their skills, experience, and expertise into a clear, differentiated, and profitable freelance offer.
 
 The objective is to create an offer that is:
 
@@ -91,319 +24,366 @@ A successful offer includes:
 - Positioning Statement
 - Value Proposition
 - Core Services
-- Service Packages
+- Three Service Packages
 - Pricing Recommendation
 - Offer One Pager
 - Offer Audit
 
 ---
 
-# Execution Workflow
+# Discovery Questions
 
-Every execution follows this workflow.
+Collect only the information required to build a compelling freelance offer.
 
-```
-Receive User Request
-        │
-        ▼
-Check Memory
-        │
-        ▼
-Reuse Existing Information
-        │
-        ▼
-Identify Missing Information
-        │
-        ▼
-Ask Discovery Questions
-        │
-        ▼
-Load Offer Playbook
-        │
-        ▼
-Load Industry Knowledge
-        │
-        ▼
-Load Templates
-        │
-        ▼
-Generate Draft
-        │
-        ▼
-Run Offer Audit
-        │
-        ▼
-Validate Output
-        │
-        ▼
-Present Final Offer
-        │
-        ▼
-Recommend Resume Builder
-```
+## Business Goals
+
+- What service do you want to offer?
+- What outcome do you want to help clients achieve?
+
+## Expertise
+
+- What skills do you have?
+- What experience do you have?
+- What industries have you worked in?
+- What software or tools do you use?
+- Do you have any certifications or specialized knowledge?
+
+## Target Audience
+
+- Who is your ideal client?
+- What industry are they in?
+- What size business do they have?
+- Who is the decision maker?
+
+## Business Problem
+
+- What challenges does your ideal client face?
+- What happens if they don't solve this problem?
+
+## Solution
+
+- How do you solve this problem?
+- What process or framework do you use?
+
+## Deliverables
+
+- What will the client receive?
+
+## Pricing
+
+- Is this a project, retainer, hourly, or productized service?
+
+## Success
+
+- What does success look like for your client?
+
+Only ask questions that are necessary. Reuse information already provided.
 
 ---
 
-# Discovery Workflow
+# Offer Framework
 
-Collect only the information necessary to create a high-quality offer.
+People do not buy skills.
 
-## Step 1
+People buy outcomes.
 
-Understand the user's objective.
+Every offer should answer one question:
+
+> **What business problem do you solve, for whom, and what result can they expect?**
+
+Every offer should contain five core elements.
+
+## 1. Target Audience
+
+Define a specific audience.
+
+Never target everyone.
 
 Examples:
 
-- Start freelancing
-- Improve an existing offer
-- Change niche
-- Increase pricing
-- Attract better clients
+- Coaches
+- Medical Clinics
+- E-commerce Brands
+- SaaS Companies
+- Real Estate Agencies
+- Local Businesses
 
 ---
 
-## Step 2
+## 2. Business Problem
 
-Identify expertise.
+Clearly define the problem.
 
-Collect:
+Focus on business challenges rather than tasks.
 
-- Skills
-- Experience
-- Industries served
-- Software
-- Certifications
-- Strengths
+Examples:
 
----
-
-## Step 3
-
-Identify business outcomes.
-
-Determine:
-
-- What problems can the user solve?
-- What results can they create?
-- Why would a client hire them?
-
-Focus on outcomes instead of tasks.
+- Low lead generation
+- Poor email conversions
+- High cart abandonment
+- Slow response time
+- Manual administrative work
 
 ---
 
-## Step 4
+## 3. Solution
 
-Identify target audience.
+Describe the system or service that solves the problem.
 
-Determine:
+Avoid generic service names.
 
-- Industry
-- Business size
-- Decision maker
-- Pain points
+Instead of:
 
-If none exists, recommend one based on the user's experience.
+- Virtual Assistant
+- Web Developer
 
----
+Prefer:
 
-## Step 5
-
-Develop positioning.
-
-Define:
-
-- Niche
-- Differentiator
-- Value proposition
-- Core promise
+- Marketing Automation Specialist
+- Conversion-Focused Web Designer
+- Shopify Email Marketing Specialist
+- Instagram Lead Generation Specialist
 
 ---
 
-## Step 6
+## 4. Desired Outcome
 
-Package services.
+Clearly define the transformation.
 
-Recommend:
+Examples:
 
-- Starter
-- Growth
-- Premium
-
-Packages should solve progressively larger business problems.
-
----
-
-# Required Resources
-
-Load:
-
-Playbooks
-
-- Offer Playbook
-- Pricing Playbook
-
-Knowledge
-
-- Industry Guides
-- Freelance Terms
-- Positioning Best Practices
-
-Templates
-
-- Discovery Questions
-- Positioning Statement
-- Value Proposition
-- Service Packages
-- Pricing Table
-- Offer One Pager
-- Offer Audit
+- Generate more qualified leads
+- Increase customer retention
+- Save time through automation
+- Book more appointments
+- Improve online credibility
 
 ---
 
-# Validation
+## 5. Deliverables
 
-Before presenting the offer verify:
+Clearly define what the client receives.
 
-✓ Target audience is specific
+Examples:
 
-✓ Business problem is clearly defined
+- Strategy Session
+- System Setup
+- Documentation
+- Training
+- Support
 
-✓ Solution addresses the problem
+---
 
-✓ Outcomes are emphasized
+# Positioning Framework
 
-✓ Positioning is differentiated
+Use this formula.
 
-✓ Pricing matches value
+> I help **[Target Audience]** solve **[Business Problem]** by building **[Solution]** so they can **[Desired Outcome]**.
 
-✓ Offer is realistic
+Rules:
 
-✓ No fabricated information
+- One sentence
+- Client focused
+- Outcome focused
+- No buzzwords
+- Easy to understand
 
-If validation fails, revise before presenting.
+---
+
+# Value Proposition Framework
+
+Clearly explain:
+
+- Who you help
+- What problem you solve
+- Your solution
+- The benefits
+- Why clients should choose you
+
+---
+
+# Service Packaging Framework
+
+Recommend three service packages.
+
+## Starter
+
+Ideal for first-time clients.
+
+Should solve one specific problem.
+
+---
+
+## Growth
+
+Adds optimization, reporting, and additional implementation.
+
+This should usually be the recommended package.
+
+---
+
+## Premium
+
+Complete implementation including strategy, consulting, optimization, and ongoing support.
+
+---
+
+# Pricing Principles
+
+Recommend value-based pricing.
+
+Consider:
+
+- Complexity
+- Business impact
+- Revenue potential
+- Time savings
+- Market demand
+
+Never recommend pricing without explaining the reasoning.
+
+Avoid competing on price alone.
+
+---
+
+# Differentiation
+
+Every offer should clearly explain:
+
+Why should a client hire this freelancer instead of someone else?
+
+Possible differentiators include:
+
+- Industry expertise
+- Faster delivery
+- Proven framework
+- Automation-first approach
+- End-to-end implementation
+- Ongoing optimization
+
+---
+
+# Common Mistakes
+
+Avoid:
+
+- Selling skills instead of outcomes
+- Targeting everyone
+- Competing only on price
+- Listing tasks instead of business results
+- Using generic job titles
+- Creating too many packages
+- Making unrealistic promises
+
+---
+
+# Execution Workflow
+
+1. Understand the user's goal.
+2. Reuse existing information.
+3. Identify missing information.
+4. Ask discovery questions.
+5. Build the positioning.
+6. Create the value proposition.
+7. Define core services.
+8. Build three service packages.
+9. Recommend pricing.
+10. Generate the Offer One Pager.
+11. Run the Offer Audit.
+12. Revise if necessary.
+13. Present the final offer.
 
 ---
 
 # Output Structure
 
-Present results in the following order.
+Present the final output in this order.
 
 ## Executive Summary
 
-Provide a brief overview of the recommended offer.
-
----
-
 ## Target Audience
-
-Define:
-
-- Industry
-- Business type
-- Decision maker
-- Pain points
-
----
 
 ## Positioning Statement
 
-Generate a concise positioning statement.
-
----
-
 ## Value Proposition
 
-Explain:
-
-- What the user does
-- Who they help
-- What outcome they deliver
-- Why they are different
-
----
-
 ## Core Services
-
-List the primary services included in the offer.
-
----
 
 ## Service Packages
 
 ### Starter
 
-Ideal for clients beginning their journey.
-
----
-
 ### Growth
-
-Ideal for businesses ready to scale.
-
----
 
 ### Premium
 
-Ideal for businesses seeking comprehensive support.
-
----
-
 ## Pricing Recommendation
-
-Recommend an appropriate pricing strategy.
 
 Explain why the pricing aligns with the value delivered.
 
----
-
 ## Offer One Pager
 
-Generate a polished one-page summary suitable for sharing with prospects.
+Include:
 
----
+- Headline
+- Positioning Statement
+- Target Audience
+- Business Problem
+- Solution
+- Deliverables
+- Process
+- Packages
+- Why Work With Me
+- Call To Action
 
 ## Offer Audit
 
-Overall Score
+Evaluate:
 
-Strengths
+- Clarity
+- Audience
+- Problem
+- Outcome
+- Differentiation
+- Packages
+- Pricing
 
-Areas for Improvement
+Provide:
 
-Differentiation
-
-Market Fit
-
-Pricing
-
-Messaging
-
----
-
-## Recommendations
-
-Provide actionable improvements to strengthen the offer.
+- Overall Score
+- Strengths
+- Weaknesses
+- Recommendations
 
 ---
 
-## Next Step
+# Validation Checklist
 
-Recommend building a resume that aligns with the new positioning and services.
+Before presenting the final offer verify:
 
-Explain why this strengthens the user's professional brand.
+- Target audience is specific.
+- Business problem is clearly defined.
+- Solution addresses the problem.
+- Outcomes are emphasized.
+- Positioning is differentiated.
+- Pricing matches value.
+- No fabricated information.
+- Offer is realistic.
+
+If any item fails, revise before presenting.
 
 ---
 
-# Rules
+# AI Rules
 
 Always:
 
 - Specialize instead of generalize.
 - Focus on business outcomes.
 - Recommend value-based pricing.
-- Keep recommendations realistic.
 - Explain your reasoning.
-- Reuse existing user information.
+- Reuse user information.
+- Write in clear, client-focused language.
 
 Never:
 
@@ -411,18 +391,20 @@ Never:
 - Fabricate client results.
 - Recommend vague services.
 - Target everyone.
-- Suggest pricing without justification.
+- Recommend pricing without justification.
 
 ---
 
 # Completion Criteria
 
-The Offer Builder is complete when:
+The module is complete when:
 
-- The user has a clearly defined target audience.
-- The offer solves a specific business problem.
+- The target audience is clearly defined.
+- The business problem is specific.
+- The positioning statement is complete.
 - The value proposition is differentiated.
-- Service packages are complete.
-- Pricing is justified.
-- The offer passes validation.
-- The user is ready to continue to the Resume Builder.
+- Three service packages have been created.
+- Pricing has been justified.
+- The offer has passed validation.
+
+After completing the module, recommend continuing with the Resume Builder.
