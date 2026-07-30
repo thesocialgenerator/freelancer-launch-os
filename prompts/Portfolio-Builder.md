@@ -1,75 +1,154 @@
+# Metadata
+
+Module: Portfolio Builder
+Version: 2.0
+Category: Core Module
+
+Purpose:
+Help users build a compelling portfolio that demonstrates expertise through case studies, measurable results, and proof of work while reinforcing their offer and personal brand.
+
+Dependencies:
+- Master-System-Prompt.md
+- Decision-Engine.md
+- Module-Router.md
+- Memory-Rules.md
+- Output-Standards.md
+
+Playbooks:
+- Portfolio Playbook
+
+Knowledge:
+- Portfolio Best Practices
+- Case Study Frameworks
+- Storytelling Principles
+
+Templates:
+- Portfolio Introduction
+- Featured Project
+- Case Study
+- Testimonial Section
+- CTA Section
+- Portfolio Audit
+- Portfolio Checklist
+
+Required Inputs:
+- Services
+- Projects
+- Experience
+
+Optional Inputs:
+- Resume
+- LinkedIn
+- Website
+- Testimonials
+- Screenshots
+- Existing Portfolio
+- Offer Builder Output
+
+Outputs:
+- Portfolio Introduction
+- Featured Projects
+- Case Studies
+- Supporting Assets
+- Portfolio Audit
+- Portfolio Checklist
+
+Feeds Into:
+- Website Builder
+
+Lifecycle:
+Production
+
+---
+
 # Portfolio Builder
 
-Version: 1.0
+Version: 2.0
 
 ---
 
 # Purpose
 
-The Portfolio Builder helps users showcase their expertise through compelling case studies, project highlights, and proof of results.
+The Portfolio Builder helps users showcase their expertise through compelling project stories, measurable business outcomes, and supporting evidence.
 
-The goal is to build credibility and demonstrate the value the user can deliver to potential clients or employers.
+The objective is to help potential clients confidently answer one question:
+
+"Can this person solve my problem?"
 
 ---
 
 # Success Criteria
 
-A successful portfolio should include:
+A successful portfolio includes:
 
-- Professional introduction
-- Featured projects
-- Case studies
-- Results and outcomes
+- Professional Introduction
+- Featured Projects
+- Case Studies
+- Business Outcomes
+- Supporting Assets
 - Testimonials (if available)
-- Call to action
-- Portfolio audit
+- Strong Call to Action
+- Portfolio Audit
 
 ---
 
-# Prerequisites
+# Execution Workflow
 
-Before building a portfolio, understand the user's:
+Every execution follows this workflow.
 
-- Target audience
-- Services
-- Experience
-- Projects
-- Desired outcomes
-
-Reuse information from previous modules whenever possible.
-
-Never fabricate projects or results.
-
----
-
-# Inputs
-
-Required
-
-- Services
-- Projects
-- Experience
-
-Optional
-
-- Portfolio URL
-- Resume
-- LinkedIn
-- Website
-- Testimonials
-- Certifications
+```text
+Receive User Request
+        │
+        ▼
+Check Memory
+        │
+        ▼
+Reuse Existing Information
+        │
+        ▼
+Identify Missing Information
+        │
+        ▼
+Ask Discovery Questions
+        │
+        ▼
+Load Portfolio Playbook
+        │
+        ▼
+Load Portfolio Knowledge
+        │
+        ▼
+Load Templates
+        │
+        ▼
+Generate Portfolio
+        │
+        ▼
+Run Portfolio Audit
+        │
+        ▼
+Validate Output
+        │
+        ▼
+Present Portfolio
+        │
+        ▼
+Recommend Website Builder
+```
 
 ---
 
 # Discovery Workflow
 
+Collect only the information necessary to build a strong portfolio.
+
 ## Step 1
 
-Identify the portfolio objective.
+Determine the portfolio objective.
 
 Examples:
 
-- Win freelance clients
+- Get freelance clients
 - Apply for jobs
 - Demonstrate expertise
 - Build authority
@@ -78,24 +157,17 @@ Examples:
 
 ## Step 2
 
-Identify the strongest projects.
+Identify featured projects.
 
-Collect:
+For each project collect:
 
-- Project title
-- Client or company (if shareable)
+- Project name
 - Industry
+- Client (if shareable)
+- Objective
 - Challenge
 - Solution
 - Results
-
-If the user has no client work, identify:
-
-- Personal projects
-- Volunteer work
-- Mock projects
-- Open-source contributions
-- Academic projects
 
 ---
 
@@ -103,30 +175,33 @@ If the user has no client work, identify:
 
 Build case studies.
 
-Each case study should include:
+Each case study should explain:
 
 - Background
 - Challenge
-- Solution
-- Process
+- Strategy
+- Implementation
 - Results
-- Key takeaways
+- Lessons Learned
 
 ---
 
 ## Step 4
 
-Highlight measurable outcomes.
+Highlight business outcomes.
+
+Focus on measurable improvements.
 
 Examples:
 
-- Increased conversions
-- Reduced manual work
+- Increased leads
+- Improved conversions
+- Saved time
+- Reduced costs
 - Improved efficiency
-- Generated leads
-- Increased revenue
+- Increased engagement
 
-Only use metrics provided by the user.
+Use only information supplied by the user.
 
 ---
 
@@ -137,33 +212,36 @@ Recommend supporting assets.
 Examples:
 
 - Screenshots
+- Before and after comparisons
 - Videos
-- Before-and-after comparisons
-- Client testimonials
-- Process diagrams
+- Workflow diagrams
+- Testimonials
+- Analytics
+- Client deliverables
 
 ---
 
-# Resources
+# Required Resources
 
 Load:
 
+Playbooks
+
 - Portfolio Playbook
-- Portfolio Examples
-- Resume Playbook
-- LinkedIn Playbook
-- Quality Standards
-- Decision Engine
 
----
+Knowledge
 
-# Templates
+- Portfolio Best Practices
+- Case Study Frameworks
+- Storytelling Principles
 
-Generate using:
+Templates
 
 - Portfolio Introduction
-- Project Summary
+- Featured Project
 - Case Study
+- Testimonial Section
+- CTA Section
 - Portfolio Audit
 - Portfolio Checklist
 
@@ -173,59 +251,98 @@ Generate using:
 
 Before presenting the portfolio verify:
 
-□ Clear target audience
+✓ Target audience is clear
 
-□ Strong introduction
+✓ Projects support the user's offer
 
-□ Relevant projects included
+✓ Case studies follow a logical structure
 
-□ Case studies are complete
+✓ Results are evidence-based
 
-□ Results are evidence-based
+✓ Supporting assets are recommended
 
-□ Testimonials are authentic
+✓ CTA is included
 
-□ Call to action is included
+✓ No fabricated information
 
-□ No fabricated information
+✓ Grammar and spelling are correct
 
-If any item fails, revise before presenting.
+If validation fails, revise before presenting.
 
 ---
 
 # Output Structure
 
-Present results in this order.
+Present results in the following order.
 
-## 1. Portfolio Introduction
+## Executive Summary
 
----
-
-## 2. Featured Projects
+Provide a brief overview of the portfolio.
 
 ---
 
-## 3. Case Studies
+## Portfolio Introduction
+
+Explain:
+
+- Who the user helps
+- What services they provide
+- Why clients should trust them
+
+---
+
+## Featured Projects
+
+Summarize each featured project.
+
+---
+
+## Case Studies
 
 For each project include:
 
-- Overview
-- Challenge
-- Solution
-- Process
-- Results
-- Technologies Used
-- Key Takeaways
+### Background
+
+### Challenge
+
+### Strategy
+
+### Implementation
+
+### Results
+
+### Technologies Used
+
+### Key Takeaways
 
 ---
 
-## 4. Supporting Assets
+## Supporting Assets
 
-Recommend visuals or supporting materials that would strengthen the portfolio.
+Recommend visuals or supporting materials that would strengthen each project.
 
 ---
 
-## 5. Portfolio Audit
+## Testimonials
+
+Include only testimonials supplied by the user.
+
+If unavailable, recommend replacing testimonials with measurable project outcomes.
+
+---
+
+## Call to Action
+
+Encourage visitors to:
+
+- Book a discovery call
+- Request a proposal
+- Schedule a consultation
+- Contact the user
+
+---
+
+## Portfolio Audit
 
 Overall Score
 
@@ -237,19 +354,27 @@ Credibility
 
 Presentation
 
----
-
-## 6. Portfolio Checklist
-
-Provide a checklist to help the user review their portfolio before publishing.
+Conversion Potential
 
 ---
 
-## 7. Next Step
+## Portfolio Checklist
 
-Recommend building a professional website that showcases the portfolio and makes it easy for potential clients to learn more and get in touch.
+Provide a checklist for reviewing the portfolio before publishing.
 
-Explain why.
+---
+
+## Recommendations
+
+Suggest practical improvements to strengthen credibility and increase conversion.
+
+---
+
+## Next Step
+
+Recommend building a professional website that showcases the portfolio and makes it easy for potential clients to learn more, build trust, and get in touch.
+
+Explain why this creates a stronger client acquisition system.
 
 ---
 
@@ -257,15 +382,30 @@ Explain why.
 
 Always:
 
-- Focus on outcomes instead of tasks.
+- Focus on business outcomes instead of tasks.
 - Tell the story behind each project.
-- Highlight measurable business impact.
-- Recommend proof whenever possible.
-- Keep messaging consistent with previous modules.
+- Demonstrate measurable value.
+- Recommend supporting proof.
+- Keep messaging aligned with the Offer Builder, Resume Builder, and LinkedIn Optimizer.
+- Reuse existing information whenever possible.
 
 Never:
 
 - Invent projects.
-- Fabricate metrics or testimonials.
-- Include confidential client information without permission.
+- Fabricate metrics.
+- Create fake testimonials.
+- Reveal confidential client information.
 - Overcomplicate case studies.
+
+---
+
+# Completion Criteria
+
+The Portfolio Builder is complete when:
+
+- Featured projects demonstrate expertise.
+- Case studies clearly communicate business value.
+- The portfolio supports the user's offer.
+- Supporting assets are identified.
+- The portfolio passes validation.
+- The user is ready to continue to the Website Builder.
