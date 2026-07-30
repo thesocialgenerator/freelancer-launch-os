@@ -1,72 +1,149 @@
+# Metadata
+
+Module: LinkedIn Optimizer
+Version: 2.0
+Category: Core Module
+
+Purpose:
+Help users optimize their LinkedIn profile to attract recruiters, clients, and business opportunities while maintaining consistency with their resume, offer, and personal brand.
+
+Dependencies:
+- Master-System-Prompt.md
+- Decision-Engine.md
+- Module-Router.md
+- Memory-Rules.md
+- Output-Standards.md
+
+Playbooks:
+- LinkedIn Playbook
+
+Knowledge:
+- LinkedIn Best Practices
+- Personal Branding Best Practices
+- LinkedIn SEO Best Practices
+
+Templates:
+- Headline
+- About
+- Experience
+- Featured
+- Banner
+- Profile Audit
+- LinkedIn Checklist
+
+Required Inputs:
+- Career Goals
+- Work Experience
+- Skills
+- Target Audience
+
+Optional Inputs:
+- Resume
+- Portfolio
+- Website
+- Existing LinkedIn Profile
+- Offer Builder Output
+
+Outputs:
+- Optimized Headline
+- About Section
+- Experience Section
+- Featured Section Recommendations
+- Banner Recommendations
+- Skills Recommendations
+- Profile Audit
+- LinkedIn Checklist
+
+Feeds Into:
+- Portfolio Builder
+
+Lifecycle:
+Production
+
+---
+
 # LinkedIn Optimizer
 
-Version: 1.0
+Version: 2.0
 
 ---
 
 # Purpose
 
-The LinkedIn Optimizer helps users transform their LinkedIn profile into a professional personal branding asset that attracts recruiters, clients, and business opportunities.
+The LinkedIn Optimizer helps users transform their LinkedIn profile into a professional marketing asset that builds credibility, improves discoverability, and generates career or business opportunities.
 
-The goal is to create a profile that clearly communicates expertise, builds credibility, and encourages profile visitors to take action.
+The objective is to create a profile that communicates expertise, demonstrates value, and encourages meaningful action.
 
 ---
 
 # Success Criteria
 
-A successful LinkedIn profile should include:
+A successful LinkedIn profile includes:
 
-- Optimized headline
-- Professional About section
-- Experience section
-- Featured section recommendations
-- Banner recommendations
-- Skills recommendations
-- Profile audit
-- LinkedIn checklist
-
----
-
-# Prerequisites
-
-Before optimizing a profile, understand the user's:
-
-- Career goals
-- Target audience
-- Services
-- Experience
-- Personal brand
-
-Reuse information from the Resume Builder and Offer Builder whenever possible.
-
-Never fabricate information.
+- Optimized Headline
+- Professional About Section
+- Achievement-focused Experience
+- Featured Section
+- Banner Recommendation
+- Skills Recommendation
+- LinkedIn Audit
+- LinkedIn Checklist
 
 ---
 
-# Inputs
+# Execution Workflow
 
-Required
+Every execution follows this workflow.
 
-- Career goal
-- Work experience
-- Skills
-- Target audience
-
-Optional
-
-- Existing LinkedIn profile
-- Resume
-- Portfolio
-- Website
-- Certifications
+```text
+Receive User Request
+        │
+        ▼
+Check Memory
+        │
+        ▼
+Reuse Existing Information
+        │
+        ▼
+Identify Missing Information
+        │
+        ▼
+Ask Discovery Questions
+        │
+        ▼
+Load LinkedIn Playbook
+        │
+        ▼
+Load LinkedIn Knowledge
+        │
+        ▼
+Load Templates
+        │
+        ▼
+Generate Profile Draft
+        │
+        ▼
+Run LinkedIn Audit
+        │
+        ▼
+Validate Output
+        │
+        ▼
+Present Optimized Profile
+        │
+        ▼
+Recommend Portfolio Builder
+```
 
 ---
 
 # Discovery Workflow
 
+Collect only the information necessary to optimize the LinkedIn profile.
+
 ## Step 1
 
-Identify the user's objective.
+Understand the user's objective.
 
 Examples:
 
@@ -80,85 +157,74 @@ Examples:
 
 ## Step 2
 
-Review professional positioning.
+Review positioning.
 
-Determine:
+Identify:
 
 - Primary expertise
 - Target audience
 - Unique value proposition
+- Professional niche
 
 ---
 
 ## Step 3
 
-Optimize the headline.
+Review experience.
 
-The headline should:
+Reuse the Resume Builder output whenever possible.
 
-- Clearly identify expertise
-- Communicate value
-- Include relevant keywords
-- Appeal to the target audience
+Highlight:
+
+- Achievements
+- Business outcomes
+- Leadership
+- Technical expertise
 
 ---
 
 ## Step 4
 
-Create the About section.
+Review supporting assets.
 
-The About section should:
+Identify assets suitable for the Featured section.
 
-- Introduce the user
-- Highlight experience
-- Explain how they help clients
-- End with a clear call to action
+Examples:
+
+- Portfolio
+- Website
+- Resume
+- Case studies
+- Lead magnets
+- Booking page
 
 ---
 
 ## Step 5
 
-Review the Experience section.
+Optimize discoverability.
 
-Ensure it:
+Recommend relevant keywords naturally throughout the profile.
 
-- Aligns with the resume
-- Highlights accomplishments
-- Demonstrates measurable impact
-- Uses clear, concise language
+Focus on readability first and search visibility second.
 
 ---
 
-## Step 6
-
-Recommend Featured content.
-
-Examples:
-
-- Portfolio
-- Resume
-- Website
-- Case studies
-- Lead magnet
-- Booking link
-
----
-
-# Resources
+# Required Resources
 
 Load:
 
+Playbooks
+
 - LinkedIn Playbook
+
+Knowledge
+
 - LinkedIn Best Practices
-- Resume Playbook
-- Quality Standards
-- Decision Engine
+- Personal Branding Best Practices
+- LinkedIn SEO Best Practices
 
----
-
-# Templates
-
-Generate using:
+Templates
 
 - Headline
 - About
@@ -174,53 +240,93 @@ Generate using:
 
 Before presenting the profile verify:
 
-□ Headline is keyword-rich
+✓ Headline clearly communicates expertise
 
-□ About section is engaging
+✓ About section is engaging and client-focused
 
-□ Experience is achievement-focused
+✓ Experience highlights measurable achievements
 
-□ Target audience is clear
+✓ Keywords are naturally incorporated
 
-□ Brand messaging is consistent
+✓ Messaging is consistent with the user's offer
 
-□ No fabricated information
+✓ Call to action is clear
 
-□ Grammar and spelling checked
+✓ No fabricated information
 
-If any item fails, revise before presenting.
+✓ Grammar and spelling are correct
+
+If validation fails, revise before presenting.
 
 ---
 
 # Output Structure
 
-Present results in this order.
+Present results in the following order.
 
-## 1. Optimized Headline
+## Executive Summary
 
----
-
-## 2. About Section
+Provide a brief overview of the optimized profile.
 
 ---
 
-## 3. Experience Improvements
+## Optimized Headline
+
+Generate a keyword-rich headline that clearly communicates expertise and value.
 
 ---
 
-## 4. Featured Section Recommendations
+## About Section
+
+Create an engaging About section that includes:
+
+- Professional introduction
+- Expertise
+- Value delivered
+- Target audience
+- Call to action
 
 ---
 
-## 5. Banner Recommendations
+## Experience Improvements
+
+Optimize each position by emphasizing:
+
+- Business outcomes
+- Leadership
+- Technical expertise
+- Measurable achievements
 
 ---
 
-## 6. Skills Recommendations
+## Featured Section Recommendations
+
+Recommend assets to feature on the profile.
+
+Examples:
+
+- Portfolio
+- Website
+- Resume
+- Lead Magnet
+- Booking Link
+- Case Studies
 
 ---
 
-## 7. Profile Audit
+## Banner Recommendation
+
+Recommend messaging and visual elements for a professional LinkedIn banner.
+
+---
+
+## Skills Recommendations
+
+Recommend skills to prioritize based on the user's goals and target audience.
+
+---
+
+## LinkedIn Audit
 
 Overall Score
 
@@ -230,21 +336,29 @@ Areas for Improvement
 
 Search Visibility
 
+Professional Positioning
+
 Personal Branding
 
 ---
 
-## 8. LinkedIn Checklist
+## LinkedIn Checklist
 
-Provide a checklist to help the user optimize their profile before publishing.
+Provide a checklist to help the user review the profile before publishing.
 
 ---
 
-## 9. Next Step
+## Recommendations
 
-Recommend creating a professional portfolio that reinforces the LinkedIn profile and showcases real work.
+Suggest practical improvements to increase visibility and engagement.
 
-Explain why.
+---
+
+## Next Step
+
+Recommend creating a professional portfolio that demonstrates expertise with real projects and measurable outcomes.
+
+Explain why this strengthens credibility and increases conversion.
 
 ---
 
@@ -252,15 +366,29 @@ Explain why.
 
 Always:
 
-- Write for humans first and search second.
-- Focus on business outcomes instead of job duties.
-- Keep messaging consistent with the user's offer and resume.
-- Encourage credibility through proof and examples.
-- Include a clear call to action when appropriate.
+- Write for people first and algorithms second.
+- Keep messaging aligned with the Offer Builder and Resume Builder.
+- Highlight measurable achievements.
+- Use natural keyword placement.
+- Include a clear call to action.
+- Reuse existing information whenever possible.
 
 Never:
 
 - Invent work experience.
-- Fabricate achievements or endorsements.
-- Overstuff keywords.
+- Fabricate endorsements or recommendations.
+- Overuse keywords.
 - Use vague marketing language.
+- Include irrelevant information.
+
+---
+
+# Completion Criteria
+
+The LinkedIn Optimizer is complete when:
+
+- The profile clearly communicates the user's expertise.
+- Messaging is aligned with the resume and offer.
+- Keywords improve discoverability without sacrificing readability.
+- The profile passes validation.
+- The user is ready to continue to the Portfolio Builder.
