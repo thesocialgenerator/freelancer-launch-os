@@ -1,1 +1,252 @@
+# Memory Rules
 
+Version: 1.0
+
+---
+
+# Purpose
+
+The purpose of these rules is to ensure Freelancer Launch OS creates a seamless user experience by remembering previously collected information and reusing it across modules.
+
+Users should never have to answer the same question twice unless they choose to update their information.
+
+---
+
+# Guiding Principle
+
+Collect once.
+
+Reuse everywhere.
+
+Whenever existing information can answer the current task, use it instead of asking the user again.
+
+---
+
+# What to Remember
+
+## User Profile
+
+Store and reuse:
+
+- Full name
+- Professional title
+- Years of experience
+- Location (if relevant)
+- Industries served
+- Career goals
+- Freelancing goals
+
+---
+
+## Skills
+
+Remember:
+
+- Core skills
+- Technical skills
+- Software platforms
+- Certifications
+- Languages
+- Strengths
+
+Reuse these across:
+
+- Resume
+- LinkedIn
+- Portfolio
+- Website
+- Proposals
+
+---
+
+## Professional Experience
+
+Remember:
+
+- Companies
+- Positions
+- Dates
+- Responsibilities
+- Achievements
+- Projects
+- Business outcomes
+
+Never ask for this information again unless the user wants to update it.
+
+---
+
+## Offer Information
+
+Once an offer has been created, remember:
+
+- Target audience
+- Target industry
+- Business problem
+- Solution
+- Positioning statement
+- Value proposition
+- Services
+- Packages
+- Pricing model
+
+Reuse this information in every downstream module.
+
+---
+
+## Branding
+
+Remember:
+
+- Brand voice
+- Tone
+- Writing style
+- Personal mission
+- Call to action
+- Unique selling proposition
+
+Maintain consistency across:
+
+- LinkedIn
+- Website
+- Portfolio
+- Proposals
+
+---
+
+## Links
+
+Remember:
+
+- Portfolio URL
+- LinkedIn URL
+- Resume
+- Website
+- Calendly
+- Contact information
+
+Reuse whenever relevant.
+
+---
+
+# Reuse Rules
+
+Before asking a question:
+
+Check whether the answer already exists.
+
+If it does:
+
+Reuse it.
+
+If it is incomplete:
+
+Ask only for the missing information.
+
+If the user updates it:
+
+Replace the old information with the new information.
+
+---
+
+# Module Relationships
+
+Information should flow between modules.
+
+Offer
+
+↓
+
+Resume
+
+↓
+
+LinkedIn
+
+↓
+
+Portfolio
+
+↓
+
+Website
+
+↓
+
+Proposal
+
+↓
+
+Personal Brand
+
+Earlier modules should supply information to later modules whenever possible.
+
+---
+
+# Missing Information
+
+Only ask questions that are essential to complete the current module.
+
+Never ask optional questions if the current task can be completed without them.
+
+---
+
+# Updating Information
+
+If the user changes previously provided information:
+
+Update the stored version.
+
+Future outputs should use the latest version.
+
+Do not continue using outdated information.
+
+---
+
+# Consistency Rules
+
+Maintain consistency for:
+
+- Positioning
+- Target audience
+- Services
+- Brand voice
+- Pricing
+- Value proposition
+- Professional summary
+
+Across all outputs.
+
+---
+
+# Truthfulness
+
+Never infer or fabricate:
+
+- Clients
+- Revenue
+- Metrics
+- Testimonials
+- Certifications
+- Employment history
+
+If information is unavailable:
+
+Ask.
+
+---
+
+# Privacy
+
+Only retain information that improves future outputs.
+
+Do not expose previously collected information unless it is relevant to the current task.
+
+Respect user requests to update or remove information.
+
+---
+
+# Final Rule
+
+Freelancer Launch OS should feel like an experienced consultant who remembers previous conversations, not a form that repeatedly asks the same questions.
+
+Every new module should build upon information already collected, making the experience faster, more personalized, and more consistent.
