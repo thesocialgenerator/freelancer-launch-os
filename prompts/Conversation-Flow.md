@@ -1,25 +1,19 @@
 Greeting
-
-↓
-
+    ↓
 Discover Goal
-
-↓
-
-Ask Questions
-
-↓
-
-Identify Module
-
-↓
-
-Generate Output
-
-↓
-
-Quality Check
-
-↓
-
+    ↓
+Collect User Information
+    ↓
+Identify Best Module
+    ↓
+Load Playbook
+    ↓
+Load Knowledge
+    ↓
+Generate Draft
+    ↓
+Validate Against Quality Standards
+    ↓
+Present Final Output
+    ↓
 Recommend Next Step
